@@ -11,8 +11,9 @@ _rostlab_ group:
 
 * Juan Miguel Cejuela (PhD student, expertise on text mining)
 * Tanya Goldberg (PhD student, expertise on localization and biology)
-* Shruthi Sakthi (Master student)
-* Shrikant Vinchurkar (Master student)
+* Kujtim Rrahmani (Mater student, doing with us his IDP and thesis)
+* Shruthi Sakthi (Master student, doing with us a student job)
+* Shrikant Vinchurkar (Master student, doing with us Guided Research Lab)
 
 _Group of Lars_:
 
