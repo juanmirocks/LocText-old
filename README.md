@@ -32,7 +32,11 @@ We start from the basis of available systems to do 1 & 2. However, we do not dis
 
 ## Undertakings
 
-### Compare Juanmi's gene tagger vs Lars's tagger
+### Write Java interface to Lars' method
+
+...TODO
+
+### Compare Juanmi's gene tagger vs Lars's
 
 ...TODO tell story
 
