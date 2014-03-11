@@ -32,15 +32,23 @@ We start from the basis of available systems to do 1 & 2. However, we do not dis
 
 ## Undertakings
 
-### Write Java interface to Lars' method
+### 1. Write Java interface to Lars' method
 
 ...TODO
 
-### Compare Juanmi's gene tagger vs Lars's
+### 2. Compare Juanmi's gene tagger vs Lars's
 
 ...TODO tell story
 
-### Annotate a corpus for relationship extraction
+### 3. Motivation for undertaking
+
+...TODO
+
+Student: Shrikant Vinchurkar
+1. Calculate the number of proteins for all organisms in SwissProt (ver Feb 2014) that are annotated experimentally and non-experimentally.
+2. Summary for Eukaryotes, Bacteria and Archaea can be found in metadata/SummaryAnnotation.xlsx
+
+### 4. Annotate a corpus for relationship extraction
 
 We want to annotate some corpus, possibly mostly abstracts to obtain a higher diversity of information, and around 600-800 abstracts or the equivalent in full-text articles. Annotating:
 
@@ -52,6 +60,13 @@ We want to annotate some corpus, possibly mostly abstracts to obtain a higher di
 We will focus on papers treating the organisms: `{human, yeast, arabidopsis, drosophilace, c.elegans, s.pombe, s.cerevis}`. For instance, `rat` and `mouse` were discarded by suggestion of Lars, since mammals typically have very similar gene names and similar localizations.
 
 * **How to sample papers**: read off from UniProt support papers for localization annotations and from these investigate with a few ~20 papers, **what is the percentage of papers that contain in the _abstract_ support information for the localization?**. If it's a high amount, like ~90%, simply randomly sample from UniProt documents. Otherwise use Lars' pipeline to recognize protein and localization mentions to select abstracts that at least contain one mention for each category. -- Extra filter out High-throughput localization publications (assumption, the annotations are gonna appear in the full text).
+
+#### Scanning the abstracts
+sv:
+1. 15 abstracts are randomly chosen for Human proteins
+1. The rules derived from reading first 15 abstracts can be found in metadata/Rules.txt
+2. Legend used for manual marking of keywords in abstracts: Yellow-Subcellular location, Green-Protein/Gene Id, Pink-Verbs
+3. Estimated time to read and mark 15 abstracts - 6 hours
 
 
 ## Resources
