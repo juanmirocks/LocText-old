@@ -63,10 +63,10 @@ We will focus on papers treating the organisms: `{human, yeast, arabidopsis, dro
 
 #### Scanning the abstracts
 sv:
-1. 15 abstracts are randomly chosen for Human proteins
-1. The rules derived from reading first 15 abstracts can be found in metadata/Rules.txt
-2. Legend used for manual marking of keywords in abstracts: Yellow-Subcellular location, Green-Protein/Gene Id, Pink-Verbs
-3. Estimated time to read and mark 15 abstracts - 6 hours
+1. 15 abstracts were randomly chosen for Human proteins
+2. The rules derived from reading first 15 abstracts can be found in metadata/Rules.txt
+3. Legend used for manual marking of keywords in abstracts: Yellow-Subcellular location, Green-Protein/Gene Id, Pink-Verbs
+4. Estimated time to read and mark 15 abstracts - 6 hours
 
 
 ## Resources
