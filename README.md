@@ -59,11 +59,11 @@ We want to annotate some corpus, possibly mostly abstracts to obtain a higher di
 * Protein names, normalized to: `UniProt` & `STRING`
 * Localization mentions, normalized to: `GO` terms
 
-#### Collecting the papers
+### Collecting the papers
 
 We will focus on papers treating the organisms: `{human, yeast, arabidopsis, drosophilace, c.elegans, s.pombe, s.cerevis}`. For instance, `rat` and `mouse` were discarded by suggestion of Lars, since mammals typically have very similar gene names and similar localizations.
 
-##### Method followed for collection of papers:
+#### Method followed for collection of papers:
 spv: We choose the sprot data files from /mnt/project/rost_db/data/trembl/taxonomic_divisions/uniprot_sprot_*.dat and scanned every protein entry in these files to generate statistics for Eukaryota, Bacteria and Archaea. For each taxonomy class, following statistics were generated:
 
 1. Summary of all proteins whose subcellular localization is mentioned, along with supplementary information such as AC, Protein ID,  Organism, no of experimental localization, no of non-experimental localization and localization itself.
