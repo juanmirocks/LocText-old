@@ -82,17 +82,15 @@ Read off from UniProt support papers for localization annotations and from these
 
 * **What is the percentage of papers that contain in the _abstract_ support information for the localization?**.
 
-@Shrikant: We started scanning the abstracts for Eukaryota and scanned 45 abstracts (15 each from Human, Yeast and Arabidopsis). Details about scanning abstracts are mentioned in next section. Since the papers were collected with the help of PubMed Id summary that we had, we could find localization information in 37 out of 45 abstracts (i.e. ~ 82 %). Although we could find out localization keywords in large number of abstracts, not all such abstracts were useful to derive rules.
-
-If it's a high amount, like ~90%, simply randomly sample from UniProt documents. Otherwise use Lars' pipeline to recognize protein and localization mentions to select abstracts that at least contain one mention for each category. -- Extra filter out High-throughput localization publications (assumption, the annotations are gonna appear in the full text).
+@Shrikant: We started processing abstracts for Eukaryota and scanned 45 abstracts (15 each for the organisms Human, Yeast and Arabidopsis). Details about scanning abstracts are mentioned in next section. Since the papers were collected with the help of PubMed Id summary that we had, we could find localization information in 37 out of 45 abstracts (i.e. ~ 82 %). Although we could find out localization keywords in large number of abstracts, not all such abstracts were useful to derive rules.
 
 #### Scanning the abstracts
 
 @Shrikant:
 
 1. 45 abstracts were randomly chosen (15 each from Human, Yeast and Arabidopsis)
-2. The rules derived from reading 45 abstracts can be found in folder metadata (Rules_Human.txt, Rules_Scerevisae.ods , Rules_Athaliana.ods)
-3. Legend used for manual marking of keywords in abstracts: Yellow-Subcellular location, Green-Protein/Gene Id, Pink-Verbs
+2. The rules derived from reading 45 abstracts can be found in folder `metadata` (`Rules_Human.txt`, `Rules_Scerevisae.ods` , `Rules_Athaliana.ods`)
+3. Legend used for manual marking of keywords in abstracts: `Yellow:Subcellular` location, `Green:Protein/Gene Id`, `Pink:Verbs`.
 4. Estimated time to read and mark 15 abstracts - 6 hours
 
 
