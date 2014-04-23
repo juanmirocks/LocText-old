@@ -38,11 +38,13 @@ We start from the basis of available systems to do 1 & 2. However, we do not dis
 
 ### 2. Compare Juanmi's gene tagger vs Lars's
 
-Juanmi's gene tagger method 'TagTog' was evaluated on Biocreative corpus test data and following are the results of evaluation:
+Juanmi's gene tagger was evaluated on Biocreative corpus test data and following are the results of evaluation:
 
 Precision: 0.8580
 Recall: 0.8215
 FScore: 0.8394
+
+Lars's gene tagger was evaluated as well but obtained poor results. We believe the poor results are due the fact that Lars's method used a dictionary with only human gene names included. Therefore, we could not obtain a fair evaluation of Lars' and consequently **Juanmi's vs Lars' could not be compared**.
 
 ### 3. Motivation for undertaking
 
