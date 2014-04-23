@@ -11,8 +11,8 @@ _rostlab_ group:
 
 * Juan Miguel Cejuela (PhD student, expertise on text mining)
 * Tanya Goldberg (PhD student, expertise on localization and biology)
-* Kujtim Rrahmani (Mater student, doing with us his IDP and thesis)
 * Shruthi Sakthi (Master student, doing with us a Guided Research Lab)
+* Kujtim Rrahmani (Mater student, doing with us his IDP and thesis)
 * Shrikant Vinchurkar (Master student, doing with us a student job)
 
 _Group of Lars_:
@@ -64,7 +64,8 @@ We want to annotate some corpus, possibly mostly abstracts to obtain a higher di
 We will focus on papers treating the organisms: `{human, yeast, arabidopsis, drosophilace, c.elegans, s.pombe, s.cerevis}`. For instance, `rat` and `mouse` were discarded by suggestion of Lars, since mammals typically have very similar gene names and similar localizations.
 
 #### Method followed for collection of papers:
-spv: We choose the sprot data files from /mnt/project/rost_db/data/trembl/taxonomic_divisions/uniprot_sprot_*.dat and scanned every protein entry in these files to generate statistics for Eukaryota, Bacteria and Archaea. For each taxonomy class, following statistics were generated:
+
+[Shrikant]: We choose the sprot data files from /mnt/project/rost_db/data/trembl/taxonomic_divisions/uniprot_sprot_*.dat and scanned every protein entry in these files to generate statistics for Eukaryota, Bacteria and Archaea. For each taxonomy class, following statistics were generated:
 
 1. Summary of all proteins whose subcellular localization is mentioned, along with supplementary information such as AC, Protein ID,  Organism, no of experimental localization, no of non-experimental localization and localization itself.
 2. Mapping of proteins with experimental localization to the PubMed Id's where the localization is actually mentioned.
@@ -74,13 +75,16 @@ We scanned the summary of taxonomic class to choose organisms with most localiza
 
 * **How to sample papers**: read off from UniProt support papers for localization annotations and from these investigate with a few ~20 papers
 
-* **what is the percentage of papers that contain in the _abstract_ support information for the localization?**. 
-spv: We started scanning the abstracts for Eukaryota and scanned 45 abstracts (15 each from Human, Yeast and Arabidopsis). Details about scanning abstracts are mentioned in next section. Since the papers were collected with the help of PubMed Id summary that we had, we could find localization information in 37 out of 45 abstracts (i.e. ~ 82 %). Although we could find out localization keywords in large number of abstracts, not all such abstracts were useful to derive rules.
+* **what is the percentage of papers that contain in the _abstract_ support information for the localization?**.
+
+[Shrikant]: We started scanning the abstracts for Eukaryota and scanned 45 abstracts (15 each from Human, Yeast and Arabidopsis). Details about scanning abstracts are mentioned in next section. Since the papers were collected with the help of PubMed Id summary that we had, we could find localization information in 37 out of 45 abstracts (i.e. ~ 82 %). Although we could find out localization keywords in large number of abstracts, not all such abstracts were useful to derive rules.
 
 If it's a high amount, like ~90%, simply randomly sample from UniProt documents. Otherwise use Lars' pipeline to recognize protein and localization mentions to select abstracts that at least contain one mention for each category. -- Extra filter out High-throughput localization publications (assumption, the annotations are gonna appear in the full text).
 
 #### Scanning the abstracts
-sv:
+
+[Shrikant]:
+
 1. 45 abstracts were randomly chosen (15 each from Human, Yeast and Arabidopsis)
 2. The rules derived from reading 45 abstracts can be found in folder metadata (Rules_Human.txt, Rules_Scerevisae.ods , Rules_Athaliana.ods)
 3. Legend used for manual marking of keywords in abstracts: Yellow-Subcellular location, Green-Protein/Gene Id, Pink-Verbs
