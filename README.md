@@ -74,13 +74,9 @@ We will focus on papers treating the organisms: `{human, yeast, arabidopsis, dro
 2. Mapping of proteins with experimental localization to the PubMed Id's where the localization is actually mentioned.
 3. Summary of taxonomy class listing collective statistics for each organism (# of proteins with only experimental localization, # of proteins with only non experimental localization, # of proteins with exp as well as non-exp localizations, # of proteins having no localizations, total # of proteins in sprot)
 
-We scanned the summary of taxonomic class to choose organisms with most localization entries. For those organisms, the papers were collected from PubMed with the help of proteinID to PubMed Id mapping that we had. The summary of taxonomic classes Eukaryota, Bacteria and Archaea is uploaded in folder metadata/SummaryAnnotation.xlsx.
+We scanned the summary of taxonomic class to choose organisms with most localization entries. For those organisms, the papers were collected from PubMed with the help of proteinID to PubMed Id mapping that we had. The summary of taxonomic classes Eukaryota, Bacteria and Archaea is uploaded in folder `metadata/SummaryAnnotation.xlsx`.
 
-* **How to sample papers**
-
-Read off from UniProt support papers for localization annotations and from these investigate with a few ~20 papers
-
-* **What is the percentage of papers that contain in the _abstract_ support information for the localization?**.
+* **What is the % of papers that contain within the _abstract_ support information for the localization?**.
 
 @Shrikant: We started processing abstracts for Eukaryota and scanned 45 abstracts (15 each for the organisms Human, Yeast and Arabidopsis). Details about scanning abstracts are mentioned in next section. Since the papers were collected with the help of PubMed Id summary that we had, we could find localization information in 37 out of 45 abstracts (i.e. ~ 82 %). Although we could find out localization keywords in large number of abstracts, not all such abstracts were useful to derive rules.
 
