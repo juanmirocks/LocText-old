@@ -46,16 +46,7 @@ Juanmi's gene tagger was evaluated on Biocreative corpus test data and following
 
 Lars's gene tagger was evaluated as well but obtained poor results. We believe the poor results are due the fact that Lars's method used a dictionary with only human gene names included. Therefore, we could not obtain a fair evaluation of Lars' and consequently **Juanmi's vs Lars' could not be compared**.
 
-### 3. Motivation for undertaking
-
-...TODO
-
-@Shrikant:
-
-1. Calculate the number of proteins for all organisms in SwissProt (ver Feb 2014) that are annotated experimentally and non-experimentally.
-2. Summary for Eukaryotes, Bacteria and Archaea can be found in metadata/SummaryAnnotation.xlsx
-
-### 4. Annotate a corpus for relationship extraction
+### 3. Annotate a corpus for relationship extraction
 
 We want to annotate some corpus, possibly mostly abstracts to obtain a higher diversity of information, and around 600-800 abstracts or the equivalent in full-text articles. Annotating:
 
@@ -74,7 +65,7 @@ We will focus on papers treating the organisms: `{human, yeast, arabidopsis, dro
 2. Mapping of proteins with experimental localization to the PubMed Id's where the localization is actually mentioned.
 3. Summary of taxonomy class listing collective statistics for each organism (# of proteins with only experimental localization, # of proteins with only non experimental localization, # of proteins with exp as well as non-exp localizations, # of proteins having no localizations, total # of proteins in sprot)
 
-We scanned the summary of taxonomic class to choose organisms with most localization entries. For those organisms, the papers were collected from PubMed with the help of proteinID to PubMed Id mapping that we had. The summary of taxonomic classes Eukaryota, Bacteria and Archaea is uploaded in folder `metadata/SummaryAnnotation.xlsx`.
+We scanned the summary of taxonomic class to choose organisms with most localization entries. For these organisms, we collected PubMed papers using the mapping proteinID --> PubMed Id (PMID) that was present in the `sprot` files. The summary results of taxonomic classes {Eukaryota, Bacteria, and Archaea} are in: [metadata/SummaryAnnotation.xlsx](https://rostlab.org/gitlab/juanmi/loctext/blob/master/metadata/SummaryAnnotation.xlsx).
 
 * **What is the % of papers that contain within the _abstract_ support information for the localization?**.
 
