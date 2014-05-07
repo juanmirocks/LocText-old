@@ -55,7 +55,7 @@ We want to annotate some corpus, possibly mostly abstracts to obtain a higher di
 
 ### Collecting the papers
 
-We will focus on papers treating the organisms: `{human, yeast, arabidopsis, drosophilace, c.elegans, s.pombe, s.cerevis}`. For instance, `rat` and `mouse` were discarded by suggestion of Lars, since mammals typically have very similar gene names and similar localizations.
+We will focus on papers treating the organisms: `{human, arabidopsis, drosophilace, c.elegans, s.pombe, s.cerevis}`. For instance, `rat` and `mouse` were discarded by suggestion of Lars, since mammals typically have very similar gene names and similar localizations.
 
 #### Method followed for collection of papers:
 
