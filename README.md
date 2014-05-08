@@ -80,6 +80,8 @@ We scanned the summary of taxonomic class to choose organisms with most localiza
 3. Legend used for manual marking of keywords in abstracts: `Yellow:Subcellular` location, `Green:Protein/Gene Id`, `Pink:Verbs`.
 4. Estimated time to read and mark 15 abstracts - 6 hours
 
+**Results**: some statistics about the annotations can be found here: [metadata/Summary](https://rostlab.org/gitlab/juanmi/loctext/tree/master/metadata/Summary)
+
 
 ## Resources
 
