@@ -13,7 +13,6 @@ _rostlab_ group:
 * Tanya Goldberg (PhD student, expertise on localization and biology)
 * Shrikant Vinchurkar (Master student, doing with us a student job)
 * Kujtim Rrahmani (Mater student, doing with us his IDP and thesis)
-* Shruthi Sakthi (Master student, doing with us a Guided Research Lab)
 
 _Group of Lars_:
 
