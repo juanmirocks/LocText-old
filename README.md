@@ -89,3 +89,27 @@ Some links & resources of interest:
 * [Biocreative 2 GM corpus](http://www.biocreative.org/resources/corpora/biocreative-ii-corpus/)
 * [Lars' COMPONENTS](http://compartments.jensenlab.org/Downloads)
 * [CRAFT corpus](http://bionlp-corpora.sourceforge.net/CRAFT/)
+
+## Other
+
+### Draft Roadmap
+
+* Feb: extra time for unfinished tasks
+* Jan: writing the thesis
+* Dec: method development
+* Nov: method development
+* Oct: method development
+* Sept: playing with ML
+* Aug: statistics 1 & 2. Also, we get GO ids for localizations and UniProt and .. for proteins. Finally, we need to set the rules for our ML method here. From here on we will also annotate one full text article every week.
+* July: 100 abstracts
+
+### Ongoing Discussions & Meetings
+
+#### Meeting on 17.07.14
+
+* 100 abstracts supposed to take not more than 60 hours of work (2 weeks)
+** first Shrikant annotates the abstracts and sends Tanya daily th eids of the abstracts to checks
+** after Tanya is done with checking of these abstracts, she sends the ids to Juanmi
+** Juanmi annotates these abstracts from scratch (Juanmi will be slower than us. Therefore, we expect him to finishe ~20 abstracts by the time we have 100). 
+* once we have those we compare ourselves (Shrikant & Tanya) with the annotations of Juanmi. We would expect an overlap in annotations of at least 80%. This would be our statistics 1
+* afterwards we'll compare our consensus annotations (the three of us) with the annotations of UniProt. This would be our statistics 2
