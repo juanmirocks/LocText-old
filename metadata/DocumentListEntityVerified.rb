@@ -1,7 +1,7 @@
 Here is the list of pubmed abstracts for which we have already discussed entity annotation:
 
 1. 17081065
-2. 11481323
+1. 11481323
 1. 15606766
 1. 18769150
 1. 20124190
