@@ -1,3 +1,9 @@
+# ⚠️DEPRECATED⚠️
+
+Refer to https://github.com/Rostlab/LocText and to 🍃https://tagtog.net
+
+---
+
 # LocText
 
 The goal is to build a text mining pipeline to extract the subcellular localization of proteins from biomedical papers.
